@@ -1,0 +1,4 @@
+type ColorProps ={
+    color: string;
+};
+

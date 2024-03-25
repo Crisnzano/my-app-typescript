@@ -5,6 +5,8 @@ import Counter from './component/Counter';
 import PropDrilling from './component/PropDrilling';
 import Context from './component/Context';
 import MyForm from './component/Form';
+import Fruit from './component/Fruit';
+import { AppleTree } from './component/AppleTree';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
    <PropDrilling/>
    <Context/>
    <MyForm/>
+   <AppleTree/>
   </div>
 
   );
