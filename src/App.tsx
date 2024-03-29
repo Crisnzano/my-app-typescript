@@ -10,6 +10,8 @@ import { AppleTree } from './component/AppleTree';
 import { AnimalProvider } from './provider/AnimalContextProvider';
 import Color from './component/Color';
 import Species from './component/Species';
+import MyLoginForm from './component/LoginForm';
+import MySignUpForm from './component/SignUp';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       <Context/>
       <MyForm/>
       <AppleTree/>
+      <MySignUpForm/>
+      <MyLoginForm/>
+
     <AnimalProvider>
       <Color/>
       <Species/>
