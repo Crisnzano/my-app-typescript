@@ -8,3 +8,12 @@ type AnimalContextProps = {
     color : string,
     
 };
+
+type ShoppingItemProps = {
+    id: number;
+    name: string;
+};
+
+type PointsProps = {
+    startCounter: number;
+};

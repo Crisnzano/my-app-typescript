@@ -12,6 +12,7 @@ import Color from './component/Color';
 import Species from './component/Species';
 import MyLoginForm from './component/LoginForm';
 import MySignUpForm from './component/SignUp';
+import PointsCounter from './component/MapFunction';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <AppleTree/>
       <MySignUpForm/>
       <MyLoginForm/>
-
+      <PointsCounter startCounter={0}/>
+  
     <AnimalProvider>
       <Color/>
       <Species/>
